@@ -139,4 +139,4 @@ if __name__ == "__main__":
     
         reaches = sample_trajectories_and_spikes(units, reaches, kin_module, nwb)
 
-        reaches.to_hdf(data_path / 'movement_data.h5', 'reach_pos_and_spikes')
+        reaches.to_hdf(data_path / 'movement_data.h5', f'reach_pos_and_spikes_{int(params.spkSampWin*1e3)}ms_bins', mode='a')
