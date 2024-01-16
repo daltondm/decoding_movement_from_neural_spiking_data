@@ -21,4 +21,4 @@ I improve the performance on held-out test data from r2=0.79 to r2=0.86 by:
 
 [collect_data_from_nwb.py](/collect_data_from_nwb.py): samples spikes and position from NWB file.
 
-[decoding_movement_with_LSTMs.ipynb](/decoding_movement_with_LSTMs.ipynb): Implementation of LSTM model, with longer description of model development and evaluation. 
+[decoding_movement_with_LSTMs.ipynb](/decoding_movment_with_LSTMs.ipynb): Implementation of LSTM model, with longer description of model development and evaluation. 
